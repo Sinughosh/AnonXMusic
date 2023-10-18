@@ -30,7 +30,6 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text=Source Codes, callback_data="https://telegra.ph/file/d2a060d4df39fcc05c567.mp4"),
         ],
     ]
     return buttons
