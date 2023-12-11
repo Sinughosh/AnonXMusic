@@ -36,7 +36,7 @@ async def inline_query_handler(client, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ʏᴏᴜᴛᴜʙᴇ 🎄",
+                            text="𝗬𝗢𝗨𝗧𝗨𝗕𝗘 🌸",
                             url=link,
                         )
                     ],
@@ -45,9 +45,9 @@ async def inline_query_handler(client, query):
             searched_text = f"""
 ❄ <b>ᴛɪᴛʟᴇ :</b> <a href={link}>{title}</a>
 
-⏳ <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs
-👀 <b>ᴠɪᴇᴡs :</b> <code>{views}</code>
-🎥 <b>ᴄʜᴀɴɴᴇʟ :</b> <a href={channellink}>{channel}</a>
+🧟 <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs
+🐼 <b>ᴠɪᴇᴡs :</b> <code>{views}</code>
+🗿 <b>ᴄʜᴀɴɴᴇʟ :</b> <a href={channellink}>{channel}</a>
 ⏰ <b>ᴘᴜʙʟɪsʜᴇᴅ ᴏɴ :</b> {published}
 
 
